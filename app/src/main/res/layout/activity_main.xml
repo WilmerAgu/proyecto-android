@@ -12,6 +12,7 @@
         android:id="@+id/btn_list_user"
         android:layout_width="300dp"
         android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="#196C1E"
         android:text="Listar Usuarios"
         android:textColor="#ffffff"
@@ -28,6 +29,8 @@
         android:id="@+id/btn_list_product"
         android:layout_width="300dp"
         android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="#196C1E"
         android:text="Listar Productos"
         android:textColor="#ffffff"
@@ -44,6 +47,8 @@
         android:id="@+id/btn_crear_usuario"
         android:layout_width="300dp"
         android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="#196C1E"
         android:text="Crear Usuario"
         android:textColor="#ffffff"
@@ -60,6 +65,8 @@
         android:id="@+id/btn_crear_producto"
         android:layout_width="300dp"
         android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="#196C1E"
         android:text="Crear Producto"
         android:textColor="#ffffff"
@@ -70,5 +77,5 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
+        app:layout_constraintVertical_bias="0.558" />
 </androidx.constraintlayout.widget.ConstraintLayout>
